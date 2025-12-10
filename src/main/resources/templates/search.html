@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>検索画面</title>
+    <!-- 使用するCSSファイル「/css/search.css」を指定 -->
+</head>
+<body>
+    <h1>[検索画面]</h1>
+    <h2>検索するカテゴリを選択して下さい</h2>
+
+    <!--【Ｑ１】送信先URL -->
+    <form action="/db/result">
+        <!--【Ｑ２】送信する値の名前 -->
+        <select name="searchWord">
+            <option value="野菜">野菜</option>
+            <option value="果物">果物</option>
+        </select>
+        <button type="submit">検索</button>
+    </form>
+    
+</body>
+</html>
